@@ -1,16 +1,18 @@
 body {
   font-size: 110%;
-}
-
-header {
-  background-color: #eee;
-  text-align: center;
-  padding: 5vw 0 60vw 0;
-  min-height: 500px;
   background-image: url("./assets/bg-image-edited.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom;
+  background-position: center top;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+header {
+  text-align: center;
+  padding: 5rem 0 50vw 0;
   h1 {
     font-size: 300%;
   }
@@ -20,4 +22,8 @@ header {
   .logo {
     width: 40%;
   }
+}
+
+.price {
+  font-size: 200%;
 }
