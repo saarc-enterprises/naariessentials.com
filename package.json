@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,9 +13,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AnandChowdhary/naari-essentials/issues"
   },
-  "homepage": "https://github.com/AnandChowdhary/naari-essentials#readme"
+  "homepage": "https://github.com/AnandChowdhary/naari-essentials#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.10",
+    "typescript": "^3.9.7"
+  }
 }
