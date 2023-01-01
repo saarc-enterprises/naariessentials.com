@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/AnandChowdhary/naari-essentials#readme",
   "devDependencies": {
-    "parcel": "^1.12.4",
+    "parcel": "^2.8.2",
     "sass": "^1.26.10",
     "typescript": "^3.9.7"
   }
